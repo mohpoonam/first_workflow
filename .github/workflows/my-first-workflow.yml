@@ -17,3 +17,8 @@ jobs:
 
     - name: Print a message
       run: echo "Hello, world!"
+      
+    - name: Test custom message
+      uses: mohpoonam/business-greetings@main
+    
+    
